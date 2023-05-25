@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ClassicModuleRoutingModule } from './classic-module-routing.module';
 import { ClassicPageComponent } from './pages/classic-page/classic-page.component';
-
+import { PanelComponent } from '../standalones/panel/panel.component';
 
 @NgModule({
   declarations: [
@@ -11,7 +11,8 @@ import { ClassicPageComponent } from './pages/classic-page/classic-page.componen
   ],
   imports: [
     CommonModule,
-    ClassicModuleRoutingModule
+    ClassicModuleRoutingModule,
+    PanelComponent
   ]
 })
 export class ClassicModuleModule { }
