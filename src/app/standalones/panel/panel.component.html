@@ -1,2 +1,4 @@
 <p>panel works!</p>
-<app-card />
+<button (click)="setName()">Change Name</button>
+
+<app-card [oldName]="oldName" [newName]="newName()" />

@@ -1,4 +1,8 @@
 <p>card works!</p>
 <div>
-  {{ fullName() }} <button (click)="setName('John')">Click</button>
+  {{ fullName() }} 
+  <button (click)="setName('John')">Click</button>
 </div>
+
+<p>OldName: {{ oldNameFormat }}</p>
+<p>NewName: {{ newNameFormat() }}</p>
